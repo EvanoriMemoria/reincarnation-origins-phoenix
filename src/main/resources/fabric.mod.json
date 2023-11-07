@@ -1,8 +1,8 @@
 {
     "schemaVersion": 1,
-    "id": "reincarnation_origins_pheonix",
+    "id": "reincarnation-origins-pheonix",
     "version": "1.0.0",
-    "name": "Reincarnation-Origins-Phoenix",
+    "name": "Reincarnation Origins Phoenix",
     "description": "Adds the Phoenix origin!",
     "authors": [
         "fergenbergel"

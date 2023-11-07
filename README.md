@@ -4,11 +4,7 @@ This mod is used in the [Reincarnation Modpack](https://modrinth.com/modpack/abe
 
 This mod adds or changes existing origins to better suit the pack. Disable any origins or powers you dislike in the origins_server.json config.
 
-# Origins
-
 ## Phoenix
-<details>
-<summary>Spoiler</summary>
 
 Heavily inspired by the Adapted Origins Phoenix, I split it into two different origins to fix some of the bugs present with health and added some additional downsides.
 
@@ -53,7 +49,6 @@ Heavily inspired by the Adapted Origins Phoenix, I split it into two different o
 
 **Negative**
 - Tiny Health: You have five hearts.
-</details>
 
 # References
 

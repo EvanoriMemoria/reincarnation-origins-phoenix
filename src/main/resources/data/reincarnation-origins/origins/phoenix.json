@@ -1,0 +1,24 @@
+{
+  "powers": [
+    "reincarnation-origins:phoenix/rebirth",
+    "reincarnation-origins:phoenix/radiant_call",
+    "reincarnation-origins:phoenix/helios_blessing",
+    "reincarnation-origins:phoenix/ascent",
+    "reincarnation-origins:phoenix/fireball",
+    "reincarnation-origins:phoenix/golden_diet",
+    "reincarnation-origins:phoenix/water_weakness",
+    "reincarnation-origins:phoenix/small_body",
+    "reincarnation-origins:phoenix/small_health",
+    "reincarnation-origins:phoenix/tasty_magic",
+    "reincarnation-origins:phoenix/glittering",
+    "origins:more_kinetic_damage",
+    "origins:fire_immunity",
+    "origins:water_vulnerability",
+    "icarus:wings"
+  ],
+  "icon": "minecraft:fire_coral_fan",
+  "order": 0,
+  "impact": 3,
+  "name": "Phoenix: True Form",
+  "description": "The Legendary Bird of Fire. Majestic and Powerful."
+}

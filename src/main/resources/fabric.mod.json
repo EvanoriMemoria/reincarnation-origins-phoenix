@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "reincarnation_origins_pheonix",
+    "version": "1.0.0",
+    "name": "Reincarnation-Origins-Phoenix",
+    "description": "Adds the Phoenix origin!",
+    "authors": [
+        "fergenbergel"
+    ],
+    "contact": {
+        "homepage": "https://github.com/EvanoriMemoria/ReincarnationOrigins",
+        "issues": "https://github.com/EvanoriMemoria/ReincarnationOrigins/issues",
+        "discord": "https://discord.com/invite/Yq7n97f"
+    },
+    "license": "MIT License",
+    "icon": "assets/reincarnationorigins/icon.png",
+    "environment": "*",
+    "depends": {
+        "origins": ">=1.6",
+        "pehkui": ">=3.3.3",
+        "icarus": ">=1.14",
+        "minecraft": "1.19.2"
+    },
+    "breaks":{
+        "bot": "*",
+        "origins-minus": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "parent": {
+                "id": "origins"
+            },
+            "update_checker": true
+        }
+    }
+}

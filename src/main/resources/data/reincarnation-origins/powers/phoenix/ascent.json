@@ -1,0 +1,15 @@
+{
+  "name": "Ascent",
+  "description": "You are able to launch yourself into the air.",
+  "type": "origins:launch",
+  "cooldown": 500,
+  "hud_render": {
+    "bar_index": 4
+  },
+  "sound": "minecraft:entity.parrot.fly",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  }
+}

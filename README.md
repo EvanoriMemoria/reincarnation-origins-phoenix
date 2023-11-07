@@ -2,7 +2,7 @@
 
 This mod is used in the [Reincarnation Modpack](https://modrinth.com/modpack/aberrant-reincarnation).
 
-This mod adds or changes existing origins to better suit the pack. Disable any origins or powers you dislike in the origins_server.json config.
+The Reincarnation Origins Phoenix started as a fork of the Adapted Origins phoenix and has transformed from there. It now includes Wings from Icarus, reverting to a much less powerful "Rebirth form" temporarily on death, only in this form, on death, do you truly die.
 
 ## Phoenix
 

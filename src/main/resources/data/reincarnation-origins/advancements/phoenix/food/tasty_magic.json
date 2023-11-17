@@ -18,5 +18,5 @@
 			"trigger":"minecraft:impossible"
 		}
 	},
-	"parent":"reincarnation-origins:phoenix/root"
+	"parent":"reincarnation-origins:phoenix/eating_gold"
 }

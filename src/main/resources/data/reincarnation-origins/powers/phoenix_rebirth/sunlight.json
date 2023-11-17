@@ -16,7 +16,7 @@
   "increment_sunlight": {
     "type": "origins:action_over_time",
     "entity_action": {
-      "type": "origins:multiple",
+      "type": "origins:and",
       "actions": [
         {
           "type": "origins:change_resource",
@@ -41,7 +41,7 @@
   "decrement_sunlight": {
     "type": "origins:action_over_time",
     "entity_action": {
-      "type": "origins:multiple",
+      "type": "origins:and",
       "actions": [
         {
           "type": "origins:change_resource",

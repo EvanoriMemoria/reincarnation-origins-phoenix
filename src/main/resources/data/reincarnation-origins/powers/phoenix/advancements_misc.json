@@ -7,17 +7,20 @@
       "type": "origins:execute_command",
       "command": "advancement grant @s only reincarnation-origins:phoenix/water_weakness"
     },
-    "conditions": [
-      {
-        "type": "origins:fluid_height",
-        "fluid": "minecraft:water",
-        "comparison": ">",
-        "compare_to": 0.0
-      },
-      {
-        "type": "origins:in_rain"
-      }
-    ]
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_rain"
+        },
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0.0
+        }
+      ]
+    }
   },
   "lava_toes": {
     "type": "origins:action_over_time",
@@ -25,89 +28,11 @@
       "type": "origins:execute_command",
       "command": "advancement grant @s only reincarnation-origins:phoenix/lava_toes"
     },
-    "conditions": [
-      {
-        "type": "origins:fluid_height",
-        "fluid": "minecraft:lava",
-        "comparison": ">",
-        "compare_to": 0.0
-      }
-    ]
-  },
-  "eating_gold": {
-    "type": "origins:action_on_item_use",
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "advancement grant @s only reincarnation-origins:phoenix/food/eating_gold"
-    },
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": [
-        {
-          "item": "minecraft:golden_apple"
-        },
-        {
-          "item": "minecraft:golden_carrot"
-        },
-        {
-          "item": "minecraft:enchanted_golden_apple"
-        },
-        {
-          "item": "honey_bottle"
-        }
-      ]
-    }
-  },
-  "golden_apple": {
-    "type": "origins:action_on_item_use",
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "advancement grant @s only reincarnation-origins:phoenix/food/golden_apple"
-    },
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:golden_apple"
-      }
-    }
-  },
-  "enchanted_golden_apple": {
-    "type": "origins:action_on_item_use",
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "advancement grant @s only reincarnation-origins:phoenix/food/enchanted_golden_apple"
-    },
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:enchanted_golden_apple"
-      }
-    }
-  },
-  "golden_carrot": {
-    "type": "origins:action_on_item_use",
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "advancement grant @s only reincarnation-origins:phoenix/food/golden_carrot"
-    },
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:golden_carrot"
-      }
-    }
-  },
-  "honey_bottle": {
-    "type": "origins:action_on_item_use",
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "advancement grant @s only reincarnation-origins:phoenix/food/honey_bottle"
-    },
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:honey_bottle"
-      }
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:lava",
+      "comparison": ">",
+      "compare_to": 0.0
     }
   }
 }

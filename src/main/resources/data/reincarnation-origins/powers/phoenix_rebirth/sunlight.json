@@ -16,9 +16,22 @@
   "increment_sunlight": {
     "type": "origins:action_over_time",
     "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "*:*_resource",
-      "change": 1
+      "type": "origins:multiple",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_resource",
+          "change": 1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/path_to_ascension"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/sunlight"
+        }
+      ]
     },
     "interval": 20,
     "condition": {
@@ -28,9 +41,22 @@
   "decrement_sunlight": {
     "type": "origins:action_over_time",
     "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "*:*_resource",
-      "change": -1
+      "type": "origins:multiple",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_resource",
+          "change": -1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/path_to_ascension"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/wet_bird"
+        }
+      ]
     },
     "interval": 20,
     "condition": {

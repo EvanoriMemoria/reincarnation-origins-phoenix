@@ -28,11 +28,19 @@
             },
             {
               "type": "origins:heal",
-              "amount": 6
+              "amount": 100
             },
             {
               "type": "origins:execute_command",
               "command": "playsound reincarnation-origins:phoenix_call neutral @s ~ ~ ~ 1 1"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/path_to_ascension"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/rebirth"
             }
           ]
         }

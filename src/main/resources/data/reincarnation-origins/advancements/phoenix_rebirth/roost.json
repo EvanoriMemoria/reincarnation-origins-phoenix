@@ -1,0 +1,21 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.phoenix.roost.name"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.phoenix.roost.description"
+		},
+		"icon":{
+			"item":"minecraft:hay_block"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"b":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"reincarnation-origins:phoenix_rebirth/path_to_ascension"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "origins:action_on_death",
+  "bientity_action": {
+    "type": "origins:execute_command",
+    "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/real_death"
+  }
+}

@@ -6,9 +6,18 @@
     "type": "origins:action_over_time",
     "interval": 400,
     "entity_action": {
-      "type": "origins:feed",
-      "food": 1.0,
-      "saturation": 0.0
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:feed",
+          "food": 1.0,
+          "saturation": 0.0
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:phoenix/food/tasty_magic"
+        }
+      ]
     },
     "condition": {
       "type": "origins:and",
@@ -35,9 +44,18 @@
     "type": "origins:action_over_time",
     "interval": 200,
     "entity_action": {
-      "type": "origins:feed",
-      "food": 1.0,
-      "saturation": 0.0
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:feed",
+          "food": 1.0,
+          "saturation": 0.0
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:phoenix/food/tastier_magic"
+        }
+      ]
     },
     "condition": {
       "type": "origins:and",
@@ -56,6 +74,13 @@
           "type": "origins:food_level",
           "comparison": "<",
           "compare_to": 20
+        },
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:moving",
+          "inverted": true
         }
       ]
     }

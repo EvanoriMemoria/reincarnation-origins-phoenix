@@ -1,0 +1,21 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.phoenix.golden_carrot.name"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.phoenix.golden_carrot.description"
+		},
+		"icon":{
+			"item":"minecraft:golden_carrot"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"b":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"reincarnation-origins:phoenix/food/eating_gold"
+}

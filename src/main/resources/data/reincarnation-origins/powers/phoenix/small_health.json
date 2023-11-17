@@ -1,12 +1,28 @@
 {
   "name": "Fragile Bones",
-  "description": "You have just seven hearts.",
+  "description": "You have fewer hearts.",
   "hidden": true,
-  "type": "origins:attribute",
-  "modifier": {
-    "attribute": "minecraft:generic.max_health",
-    "operation": "addition",
-    "value": -6
+  "type": "origins:multiple",
+  "less_health": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": -8
+    },
+    "update_health": true
   },
-  "update_health": true
+  "more_health": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": 4
+    },
+    "update_health": true,
+    "condition": {
+      "type": "origins:advancement",
+      "advancement": "reincarnation-origins:phoenix/first_death"
+    }
+  }
 }

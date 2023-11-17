@@ -21,11 +21,15 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "playsound reincarnation-origins:phoenix_call neutral @s ~ ~ ~ 1 1"
+          "command": "playsound reincarnation-origins:phoenix_call neutral @s ~ ~ ~ 0.75 1"
         },
         {
           "type": "origins:trigger_cooldown",
           "power": "reincarnation-origins:phoenix/radiant_call_cooldown"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:phoenix/call"
         }
       ]
     },
@@ -39,12 +43,17 @@
       "bar_index": 8
     }
   },
-  "reset_on_respawn": {
+  "reset_cooldown": {
     "type": "origins:action_on_callback",
     "entity_action_respawned": {
       "type": "origins:change_resource",
       "resource": "reincarnation-origins:phoenix/radiant_call_cooldown",
-      "change": 2400
+      "change": 0
+    },
+    "entity_action_gained": {
+      "type": "origins:change_resource",
+      "resource": "reincarnation-origins:phoenix/radiant_call_cooldown",
+      "change": 0
     }
   }
 }

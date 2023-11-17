@@ -14,8 +14,17 @@
       "type": "origins:chance",
       "chance": 0.1,
       "action": {
-        "type": "origins:execute_command",
-        "command": "loot spawn ~ ~ ~ loot reincarnation-origins:glittering"
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:execute_command",
+            "command": "loot spawn ~ ~ ~ loot reincarnation-origins:glittering"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "advancement grant @s only reincarnation-origins:phoenix/glittering"
+          }
+        ]
       }
     }
   }

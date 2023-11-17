@@ -22,6 +22,16 @@
       "key": "key.origins.secondary_active"
     }
   },
+  "advancement": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:phoenix/fireball"
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
   "damage": {
     "type": "origins:action_over_time",
     "interval": 1,

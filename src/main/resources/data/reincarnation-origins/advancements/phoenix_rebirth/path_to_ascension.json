@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"translate":"reincarnation-origins.advancements.phoenix.path_to_ascension.name"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.path_to_ascension.name"
 		},
 		"description":{
-			"translate":"reincarnation-origins.advancements.phoenix.path_to_ascension.description"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.path_to_ascension.description"
 		},
 		"icon":{
 			"item":"minecraft:book"

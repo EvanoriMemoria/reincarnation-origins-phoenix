@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"translate":"reincarnation-origins.advancements.phoenix.sunlight.name"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.sunlight.name"
 		},
 		"description":{
-			"translate":"reincarnation-origins.advancements.phoenix.sunlight.description"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.sunlight.description"
 		},
 		"icon":{
 			"item":"minecraft:glowstone"

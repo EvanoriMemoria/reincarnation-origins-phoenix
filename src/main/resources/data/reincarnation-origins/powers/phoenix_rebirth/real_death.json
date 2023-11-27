@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "type": "origins:action_when_damage_taken",
   "entity_action": {
     "type": "origins:execute_command",

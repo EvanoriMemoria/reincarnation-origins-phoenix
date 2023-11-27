@@ -1,21 +1,21 @@
 {
-	"display":{
-		"title":{
-			"translate":"reincarnation-origins.advancements.phoenix.call.name"
-		},
-		"description":{
-			"translate":"reincarnation-origins.advancements.phoenix.call.description"
-		},
-		"icon":{
-			"item":"minecraft:goat_horn"
-		},
-		"announce_to_chat":false,
-		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
-	},
-	"criteria":{
-		"b":{
-			"trigger":"minecraft:impossible"
-		}
-	},
-	"parent":"reincarnation-origins:phoenix/ascended_form"
+  "display": {
+    "title": {
+      "translate": "reincarnation-origins.advancements.phoenix.call.name"
+    },
+    "description": {
+      "translate": "reincarnation-origins.advancements.phoenix.call.description"
+    },
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "b": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "reincarnation-origins:phoenix/ascended_form"
 }

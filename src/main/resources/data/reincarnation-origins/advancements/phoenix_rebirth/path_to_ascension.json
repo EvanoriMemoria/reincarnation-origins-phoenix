@@ -1,21 +1,21 @@
 {
-	"display":{
-		"title":{
-			"translate":"reincarnation-origins.advancements.phoenix_rebirth.path_to_ascension.name"
-		},
-		"description":{
-			"translate":"reincarnation-origins.advancements.phoenix_rebirth.path_to_ascension.description"
-		},
-		"icon":{
-			"item":"minecraft:book"
-		},
-		"announce_to_chat":false,
-		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
-	},
-	"criteria":{
-		"b":{
-			"trigger":"minecraft:impossible"
-		}
-	},
-	"parent":"reincarnation-origins:phoenix_rebirth/rebirth_form"
+  "display": {
+    "title": {
+      "translate": "reincarnation-origins.advancements.phoenix_rebirth.path_to_ascension.name"
+    },
+    "description": {
+      "translate": "reincarnation-origins.advancements.phoenix_rebirth.path_to_ascension.description"
+    },
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "b": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "reincarnation-origins:phoenix_rebirth/rebirth_form"
 }

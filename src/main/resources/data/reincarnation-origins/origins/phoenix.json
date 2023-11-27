@@ -14,10 +14,10 @@
     "reincarnation-origins:phoenix/advancement_callbacks",
     "reincarnation-origins:phoenix/advancements_misc",
     "reincarnation-origins:phoenix/advancements_food",
+    "reincarnation-origins:phoenix/wings",
     "origins:more_kinetic_damage",
     "origins:fire_immunity",
-    "origins:water_vulnerability",
-    "icarus:wings"
+    "origins:water_vulnerability"
   ],
   "icon": "minecraft:fire_coral_fan",
   "order": 0,

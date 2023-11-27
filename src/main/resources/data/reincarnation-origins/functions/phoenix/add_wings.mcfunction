@@ -1,0 +1,1 @@
+trinkets set chest cape 0 icarus:red_feathered_wings{display:{Name:'{"text":"Phoenix\'s Wings","italic":false}'},Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}]}

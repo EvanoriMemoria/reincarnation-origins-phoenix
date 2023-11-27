@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_gained": {
+    "type": "origins:execute_command",
+    "command": "function reincarnation-origins:phoenix/add_wings"
+  },
+  "entity_action_added": {
+    "type": "origins:execute_command",
+    "command": "function reincarnation-origins:phoenix/add_wings"
+  },
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "function reincarnation-origins:phoenix/add_wings"
+  },
+  "entity_action_removed": {
+    "type": "origins:execute_command",
+    "command": "function reincarnation-origins:phoenix/remove_wings"
+  },
+  "entity_action_lost": {
+    "type": "origins:execute_command",
+    "command": "function reincarnation-origins:phoenix/remove_wings"
+  }
+}

@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"translate":"reincarnation-origins.advancements.phoenix.roost.name"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.roost.name"
 		},
 		"description":{
-			"translate":"reincarnation-origins.advancements.phoenix.roost.description"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.roost.description"
 		},
 		"icon":{
 			"item":"minecraft:hay_block"

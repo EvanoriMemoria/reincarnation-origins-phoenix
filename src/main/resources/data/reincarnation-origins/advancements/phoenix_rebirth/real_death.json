@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"translate":"reincarnation-origins.advancements.phoenix.real_death.name"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.real_death.name"
 		},
 		"description":{
-			"translate":"reincarnation-origins.advancements.phoenix.real_death.description"
+			"translate":"reincarnation-origins.advancements.phoenix_rebirth.real_death.description"
 		},
 		"icon":{
 			"item":"minecraft:zombie_head"

@@ -1,21 +1,21 @@
 {
-	"display":{
-		"title":{
-			"translate":"reincarnation-origins.advancements.phoenix.tastier_magic.name"
-		},
-		"description":{
-			"translate":"reincarnation-origins.advancements.phoenix.tastier_magic.description"
-		},
-		"icon":{
-			"item":"minecraft:book"
-		},
-		"announce_to_chat":false,
-		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
-	},
-	"criteria":{
-		"b":{
-			"trigger":"minecraft:impossible"
-		}
-	},
-	"parent":"reincarnation-origins:phoenix/food/tasty_magic"
+  "display": {
+    "title": {
+      "translate": "reincarnation-origins.advancements.phoenix.tastier_magic.name"
+    },
+    "description": {
+      "translate": "reincarnation-origins.advancements.phoenix.tastier_magic.description"
+    },
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "b": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "reincarnation-origins:phoenix/food/tasty_magic"
 }

@@ -1,7 +1,13 @@
 {
-  "type": "origins:action_on_death",
-  "bientity_action": {
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
     "type": "origins:execute_command",
     "command": "advancement grant @s only reincarnation-origins:phoenix_rebirth/real_death"
-  }
+  },
+  "condition": {
+    "type": "origins:health",
+    "comparison": "<=",
+    "compare_to": 0
+  },
+  "cooldown": 1
 }

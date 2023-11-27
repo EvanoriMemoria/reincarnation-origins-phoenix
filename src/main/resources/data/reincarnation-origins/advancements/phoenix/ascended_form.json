@@ -8,7 +8,7 @@
 			"translate":"reincarnation-origins.advancements.phoenix.ascended_form.description"
 		},
 		"icon":{
-			"item":"minecraft:feather"
+			"item":"minecraft:magma_block"
 		},
 		"announce_to_chat":false,
 		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"

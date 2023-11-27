@@ -1,8 +1,8 @@
 {
 	"origin.reincarnation-origins.phoenix.description":"The Legendary Bird of Fire. Majestic and Powerful.",
 	"origin.reincarnation-origins.phoenix.name":"Phoenix: Ascended Form",
-	"power.reincarnation-origins.phoenix/carry.name":"Desummon",
-	"power.reincarnation-origins.phoenix/carry.description":"[Shift + Left-Click] a minion to extract it's Petrified Heart, dropping all of it's equipped gear.",
+	"power.reincarnation-origins.phoenix/wings.name":"Wings",
+	"power.reincarnation-origins.phoenix/wings.description":"You have wings! You can fly, but nothing else will fit on your back.",
 
 	"reincarnation-origins.advancements.phoenix.root.name": "Bird of Legend",
 	"reincarnation-origins.advancements.phoenix.root.description": "Become the Phoenix!",

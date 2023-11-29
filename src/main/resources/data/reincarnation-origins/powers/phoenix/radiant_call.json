@@ -1,6 +1,4 @@
 {
-  "name": "Radiant Call",
-  "description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 2 minutes. Damages Undead.",
   "hidden": true,
   "type": "origins:multiple",
   "heal": {

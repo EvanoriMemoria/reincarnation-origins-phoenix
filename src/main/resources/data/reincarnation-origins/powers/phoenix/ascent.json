@@ -1,6 +1,4 @@
 {
-  "name": "Ascent",
-  "description": "You are able to launch yourself into the air.",
   "type": "origins:multiple",
   "ascent": {
     "type": "origins:launch",

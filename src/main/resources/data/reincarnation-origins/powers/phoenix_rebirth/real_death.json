@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "type": "origins:action_on_death",
   "bientity_action": {
     "type": "origins:execute_command",

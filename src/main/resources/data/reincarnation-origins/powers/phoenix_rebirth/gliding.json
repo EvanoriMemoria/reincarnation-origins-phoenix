@@ -1,6 +1,4 @@
 {
-  "name": "Gliding",
-  "description": "You're just a little guy. You have slow falling and jump boost.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 1,

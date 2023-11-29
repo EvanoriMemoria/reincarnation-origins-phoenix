@@ -1,5 +1,4 @@
 {
-  "hidden": true,
   "type": "origins:multiple",
   "water_weakness": {
     "type": "origins:action_over_time",

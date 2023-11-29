@@ -1,6 +1,4 @@
 {
-  "name": "Golden Diet",
-  "description": "You can only eat foods infused with gold. They fill you more.",
   "type": "origins:multiple",
   "only_gold": {
     "type": "origins:prevent_item_use",

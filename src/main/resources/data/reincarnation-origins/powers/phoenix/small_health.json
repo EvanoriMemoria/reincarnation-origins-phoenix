@@ -1,6 +1,4 @@
 {
-  "name": "Fragile Bones",
-  "description": "You have fewer hearts.",
   "hidden": true,
   "type": "origins:multiple",
   "less_health": {

@@ -1,6 +1,4 @@
 {
-  "name": "Small Body",
-  "description": "You're a little smaller than your average Steve. You only have seven hearts",
   "type": "origins:multiple",
   "reset": {
     "type": "origins:action_on_callback",

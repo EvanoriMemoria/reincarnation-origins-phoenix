@@ -2,17 +2,6 @@
   "name": "Small Body",
   "description": "You're a little smaller than your average Steve. You only have seven hearts",
   "type": "origins:multiple",
-  "reset": {
-    "type": "origins:action_on_callback",
-    "entity_action_lost": {
-      "type": "origins:execute_command",
-      "command": "scale reset"
-    },
-    "entity_action_gained": {
-      "type": "origins:execute_command",
-      "command": "function reincarnation-origins:phoenix/size"
-    }
-  },
   "flaming": {
     "type": "origins:particle",
     "particle": "minecraft:flame",

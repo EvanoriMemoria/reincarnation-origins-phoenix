@@ -48,12 +48,17 @@
     "entity_action_respawned": {
       "type": "origins:change_resource",
       "resource": "reincarnation-origins:phoenix/radiant_call_cooldown",
-      "change": 0
+      "change": 2399
     },
     "entity_action_gained": {
       "type": "origins:change_resource",
       "resource": "reincarnation-origins:phoenix/radiant_call_cooldown",
-      "change": 0
+      "change": 2399
+    },
+    "entity_action_added": {
+      "type": "origins:change_resource",
+      "resource": "reincarnation-origins:phoenix/radiant_call_cooldown",
+      "change": 2399
     }
   }
 }

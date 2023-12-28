@@ -1,0 +1,116 @@
+{
+  "name": "Taste for Risk",
+  "description": "While holding tnt in your offhand you slowly gain food. Crouch and stay still to ponder the beautiful explosive, gaining additional sustenance. Watch out for stray sparks.",
+  "type": "origins:multiple",
+  "passive_nourishment": {
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:feed",
+          "food": 1.0,
+          "saturation": 0.0
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/food/tasty_magic"
+        },
+        {
+          "type": "origins:chance",
+          "chance": 0.05,
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.tnt.primed"
+              },
+              {
+                "type": "origins:delay",
+                "ticks": 60,
+                "action": {
+                  "type": "origins:explode",
+                  "power": 4,
+                  "destruction_type": "break",
+                  "damage_self": false,
+                  "create_fire": true
+                }
+              },
+              {
+                "type": "origins:consume",
+                "amount": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:tnt"
+            }
+          }
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    }
+  },
+  "active_nourishment": {
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:feed",
+          "food": 1.0,
+          "saturation": 0.0
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/food/tastier_magic"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:tnt"
+            }
+          }
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": "<",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:moving",
+          "inverted": true
+        }
+      ]
+    }
+  }
+}

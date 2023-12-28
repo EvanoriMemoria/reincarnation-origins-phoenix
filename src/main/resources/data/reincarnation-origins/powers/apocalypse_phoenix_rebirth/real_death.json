@@ -1,0 +1,14 @@
+{
+  "hidden": true,
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix_rebirth/real_death"
+  },
+  "condition": {
+    "type": "origins:health",
+    "comparison": "<=",
+    "compare_to": 0
+  },
+  "cooldown": 1
+}

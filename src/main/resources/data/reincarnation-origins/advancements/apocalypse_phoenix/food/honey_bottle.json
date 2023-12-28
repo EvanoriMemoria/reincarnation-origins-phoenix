@@ -1,0 +1,21 @@
+{
+  "display": {
+    "title": {
+      "translate": "reincarnation-origins.advancements.phoenix.honey_bottle.name"
+    },
+    "description": {
+      "translate": "reincarnation-origins.advancements.phoenix.honey_bottle.description"
+    },
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "b": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "reincarnation-origins:apocalypse_phoenix/food/eating_gold"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Gliding",
+  "description": "You're just a little guy. You slow faller, jump higher, and have better control in the air.",
+  "type": "origins:multiple",
+  "status_effects": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 30,
+    "effects": [
+      {
+        "effect": "minecraft:slow_falling",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+      },
+      {
+        "effect": "minecraft:jump_boost",
+        "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+      }
+    ]
+  },
+  "air_speed": {
+    "type": "origins:modify_air_speed",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 1.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "no_fly": {
+    "type": "origins:prevent_elytra_flight",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "title @s actionbar {\"translate\":\"reincarnation-origins.apocalypse_phoenix.error.too_tired\",\"color\":\"red\",\"bold\":true}"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "glide": {
+    "type": "origins:modify_falling",
+    "velocity": 0.03,
+    "take_fall_damage": false,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_cooldown",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:sneaking",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 400,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 2,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "*:*_cooldown",
+        "comparison": ">",
+        "compare_to": 0
+      }
+    }
+  }
+}

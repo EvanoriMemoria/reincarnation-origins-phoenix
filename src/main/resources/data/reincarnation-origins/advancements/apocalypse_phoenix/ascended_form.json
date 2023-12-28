@@ -1,0 +1,22 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.phoenix.ascended_form.name",
+			"color":"gold"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.phoenix.ascended_form.description"
+		},
+		"icon":{
+			"item":"minecraft:magma_block"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"a":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"reincarnation-origins:apocalypse_phoenix/root"
+}

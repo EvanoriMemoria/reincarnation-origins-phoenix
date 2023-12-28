@@ -1,0 +1,11 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "no_fly": {
+    "type": "origins:prevent_elytra_flight",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "title @s actionbar {\"translate\":\"reincarnation-origins.apocalypse_phoenix.error.too_tired\",\"color\":\"red\",\"bold\":true}"
+    }
+  }
+}

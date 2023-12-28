@@ -1,0 +1,65 @@
+{
+  "name": "Ascent",
+  "description": "You are able to use explosives to propel yourself",
+  "type": "origins:multiple",
+  "ascent": {
+    "type": "origins:active_self",
+    "cooldown": 10,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "function reincarnation-origins:apocalypse_phoenix/ascent",
+          "permission_level": 4
+        },
+        {
+          "type": "origins:add_velocity",
+          "z": 1.2,
+          "space": "local"
+        },
+        {
+          "type": "origins:explode",
+          "power": 3,
+          "destruction_type": "none",
+          "damage_self": false,
+          "create_fire": true
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "reincarnation-origins:apocalypse_phoenix/fuel_fuelbar",
+          "change": -20
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "reincarnation-origins:apocalypse_phoenix/flight_stamina_stamina",
+          "operation": "add",
+          "change": 100
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:apocalypse_phoenix/fuel_fuelbar",
+      "comparison": ">=",
+      "compare_to": 20
+    },
+    "hud_render": {
+      "bar_index": 4
+    },
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": true
+    }
+  },
+  "advancement": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/ascent"
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "powers": [
+    "reincarnation-origins:apocalypse_phoenix/advancement_callbacks",
+    "reincarnation-origins:apocalypse_phoenix/advancements_food",
+    "reincarnation-origins:apocalypse_phoenix/advancements_misc",
+    "reincarnation-origins:apocalypse_phoenix/ascent",
+    "reincarnation-origins:apocalypse_phoenix/erupting_call",
+    "reincarnation-origins:apocalypse_phoenix/exploding_diet",
+    "reincarnation-origins:apocalypse_phoenix/explosion_immune",
+    "reincarnation-origins:apocalypse_phoenix/fireball",
+    "reincarnation-origins:apocalypse_phoenix/flight_stamina",
+    "reincarnation-origins:apocalypse_phoenix/fuel",
+    "reincarnation-origins:apocalypse_phoenix/helios_blessing",
+    "reincarnation-origins:apocalypse_phoenix/ingenuity",
+    "reincarnation-origins:apocalypse_phoenix/no_fly",
+    "reincarnation-origins:apocalypse_phoenix/no_snacks_while_flying",
+    "reincarnation-origins:apocalypse_phoenix/rebirth",
+    "reincarnation-origins:apocalypse_phoenix/size",
+    "reincarnation-origins:apocalypse_phoenix/small_body",
+    "reincarnation-origins:apocalypse_phoenix/small_health",
+    "reincarnation-origins:apocalypse_phoenix/tasty_magic",
+    "reincarnation-origins:apocalypse_phoenix/water_weakness",
+    "reincarnation-origins:apocalypse_phoenix/wings",
+    "origins:more_kinetic_damage"
+  ],
+  "icon": "minecraft:fire_coral_fan",
+  "order": 0,
+  "impact": 3
+}

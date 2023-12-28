@@ -1,9 +1,9 @@
 {
     "schemaVersion": 1,
-    "id": "reincarnation-origins-pheonix",
-    "version": "1.0.4-1.20",
-    "name": "Reincarnation Origins: Phoenix",
-    "description": "Adds the Phoenix origin!",
+    "id": "reincarnation-origins-apocalypse-phoenix",
+    "version": "1.0.4",
+    "name": "Reincarnation Origins: Apocalypse Phoenix",
+    "description": "Adds the Apocalypse Phoenix origin!",
     "authors": [
         "fergenbergel"
     ],

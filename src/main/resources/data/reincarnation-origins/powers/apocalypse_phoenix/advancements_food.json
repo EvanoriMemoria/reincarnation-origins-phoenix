@@ -1,0 +1,80 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "eating_gold": {
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/food/eating_gold"
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:golden_apple"
+        },
+        {
+          "item": "minecraft:golden_carrot"
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "item": "honey_bottle"
+        }
+      ]
+    }
+  },
+  "golden_apple": {
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/food/golden_apple"
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    }
+  },
+  "enchanted_golden_apple": {
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/food/enchanted_golden_apple"
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    }
+  },
+  "golden_carrot": {
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/food/golden_carrot"
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:golden_carrot"
+      }
+    }
+  },
+  "honey_bottle": {
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/food/honey_bottle"
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:honey_bottle"
+      }
+    }
+  }
+}

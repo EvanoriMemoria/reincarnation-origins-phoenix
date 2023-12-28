@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "reincarnation-origins:apocalypse_phoenix_rebirth/fire_immune",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/gliding",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/no_fly",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/real_death",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/rejuvenation",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/roost",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/size",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/sunlight",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/tiny_body",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/tiny_health",
+    "reincarnation-origins:apocalypse_phoenix_rebirth/wings",
+    "reincarnation-origins:apocalypse_phoenix/advancements_food",
+    "reincarnation-origins:apocalypse_phoenix/explosion_immune",
+    "reincarnation-origins:apocalypse_phoenix/helios_blessing",
+    "reincarnation-origins:apocalypse_phoenix/tasty_magic"
+  ],
+  "icon": "minecraft:fire_coral_fan",
+  "impact": 3,
+  "unchoosable":true
+}

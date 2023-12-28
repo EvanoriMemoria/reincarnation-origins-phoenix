@@ -1,0 +1,22 @@
+{
+  "display": {
+    "title": {
+      "translate": "reincarnation-origins.advancements.phoenix.tasty_magic.name",
+      "color": "gold"
+    },
+    "description": {
+      "translate": "reincarnation-origins.advancements.phoenix.tasty_magic.description"
+    },
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "b": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "reincarnation-origins:apocalypse_phoenix/food/eating_gold"
+}

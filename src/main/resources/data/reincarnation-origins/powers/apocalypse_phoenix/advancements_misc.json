@@ -1,0 +1,38 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "water_weakness": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/water_weakness"
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_rain"
+        },
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0.0
+        }
+      ]
+    }
+  },
+  "lava_toes": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix/lava_toes"
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:lava",
+      "comparison": ">",
+      "compare_to": 0.0
+    }
+  }
+}

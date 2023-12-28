@@ -1,0 +1,41 @@
+{
+  "name": "The Best Seasoning",
+  "description": "Consuming Gunpowder refills your explosion meter.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:apocalypse_phoenix/fuel_fuelbar",
+        "change": 10
+      }
+    ]
+  },
+  "cooldown": 10,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.use",
+    "continuous": true
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:gunpowder"
+      }
+    }
+  }
+}

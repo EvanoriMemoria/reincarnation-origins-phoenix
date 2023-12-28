@@ -1,0 +1,82 @@
+{
+  "name": "Sunlight",
+  "description": "While standing in the sun you gain progress toward Rejuvenating. Standing in Rain or Water will leech this progress.",
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1440,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": "14"
+    }
+  },
+  "increment_sunlight": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_resource",
+          "change": 1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix_rebirth/path_to_ascension"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix_rebirth/sunlight"
+        }
+      ]
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    }
+  },
+  "decrement_sunlight": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_resource",
+          "change": -1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix_rebirth/path_to_ascension"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:apocalypse_phoenix_rebirth/wet_bird"
+        }
+      ]
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_rain"
+        },
+        {
+          "type": "origins:submerged_in",
+          "fluid": "minecraft:water"
+        }
+      ]
+    }
+  },
+  "respawn": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "resource set @s reincarnation-origins:apocalypse_phoenix_rebirth/sunlight_resource 0"
+    }
+  }
+}
